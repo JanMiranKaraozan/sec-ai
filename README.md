@@ -13,7 +13,7 @@
 4. Dur levhalarını algılar ve tanımlar.
 5. Araçları algılar ve tanımlar.
 
-NOT: Model 0.1 OpenCV kullanılarak geliştirilmiştir. OpenCV kullanımı bir üst model itibari ile kaldırılmıştır.
+NOT: Model 0.1 OpenCV kullanılarak geliştirilmiştir. OpenCV kullanımı bir üst model itibari ile kaldırılmıştır. Model 0.1 Linux ve Windows ile uyumlu geliştirilmektedir. Bir üst model itibari ile Windows uyumluluk geliştirilmeleri yapılmayacaktır.
 
 #### Gelecek Model 1.0 özellikleri
 
