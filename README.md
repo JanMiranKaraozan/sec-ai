@@ -1,42 +1,41 @@
 # SEC AI
-- Save Envinronment Car Official Self Driving AI Model Repository
-- This Artificial Intelligent Model (Also named Software, The Software) is deploying under GNU Affero Public License 3.0V
-- Datasets (Also named Database, The Database) are open for Data Collaborators, and deploying under Open Collaboraters SEC License V1
+- Save Envinronment Car LLC © için SEC AI® resmi kod deposudur.
+- Bu Yazılım GNU Affero Kamu Lisansı 3.0 altında dağıtılmaktadır.
+- Veriler ve veritabanları SEC OpenData Lisansı 1.0 altında dağıtılmaktadır.
 
-#### Model 1.0 Features
+#### Model 0.1 Özellikleri
 
-- It has the capacity to do the following using Python3 and OpenCV:
+- OpenCV ve Python 3 kullanarak aşağıdakileri yapma kapasitesine sahiptir.
 
-1. Detects traffic lights and identifies the light status.
-2. Detects lanes on the road.
-3. Detects pedestrians.
-4. Detects stop signs.
-5. Detects vehicles.
+1. Trafik ışıklarını ve ışıkların durumunu algılar ve tanımlar
+2. Yol üzerindeki trafik şeritlerini algılar ve takip eder.
+3. Yayaları algılar ve takip eder.
+4. Dur levhalarını algılar ve tanımlar.
+5. Araçları algılar ve tanımlar.
 
-#### Future features for Model 1.1
+NOT: Model 0.1 OpenCV kullanılarak geliştirilmiştir. OpenCV kullanımı bir üst model itibari ile kaldırılmıştır.
 
-- By using OpenCV, TensorFlow and Python3 can do the following:
+#### Gelecek Model 1.0 özellikleri
 
-1. Detect traffic lights, lanes on the road, pedestrians, stop signs and vehicles.
-2. Send objects it cannot detect to developers
-3. earn using data during testing.
+- TensorFlow Lite ve Python 3 kullanarak aşağıdakileri yapma kapasitesine sahiptir.
 
-#### Future features for Model 1.2
+1. Türkiyede kullanımda olan tüm trafik levhalarını algılar.
+2. Türkiyede kullanımda olan tüm işaretlerini algılar.
+3. Veritabanında kayıtlı olan araçları algılar, takip edebilir ve durumlarını analiz edebilir.
+4. Yayaları algılar ve durumlarını takip edebilir.
 
-- By using OpenCV, TensorFlow and Python3 can do the following:
+## İnşa etme, Geliştirme ve Dağıtma
 
-1. Detects all components of traffic (signs, vehicles, markings, pedestrians).
-2. Understand the behavior of the components (vehicle turning right, pedestrian crossing)
-3. Detects situations it cannot detect, collects data and sends it to developers.
-
-## Build, Develop and Deploy
-
-### Requirements
-Language: Python, Libraries: OpenCV
+### Gereklilikler
+Python 3 ve OpenCV Kütüphanesi
 
 
     pip install opencv-python
 
-!!! ALL DEVELOPERS SHOULD GIT THEIR REPOSITORIES AFTER
+!!! TÜM GELİŞTİRMELER SONRADAN GIT ARACILIĞI İLE AYNI LİSANS ALTINDA DAĞITILMALIDIR. SEC DAĞITILMAMIŞ TÜM YAZILIM İÇİN YASAL HAKLARA SAHİPTİR.
 
 ![SEC AI](repo/image.png)
+
+#### Katkı sunma
+
+Tüm katkı sunucuların isimleri ve mottoları depoda yayımlanacaktır. Tüm çatallamalar ve katkıları destekliyoruz. 
