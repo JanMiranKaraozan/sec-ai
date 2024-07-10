@@ -1,3 +1,5 @@
+![SEC AI](repo/image.png)
+
 # SEC AI
 - Save Envinronment Car LLC © için SEC AI® resmi kod deposudur.
 - Bu Yazılım GNU Affero Kamu Lisansı 3.0 altında dağıtılmaktadır.
@@ -26,16 +28,28 @@ NOT: Model 0.1 OpenCV kullanılarak geliştirilmiştir. OpenCV kullanımı bir �
 
 ## İnşa etme, Geliştirme ve Dağıtma
 
-### Gereklilikler
-Python 3 ve OpenCV Kütüphanesi
+### Gerekliliklerin kurulması (Windows)
+install.bat dosyasını yönetici olarak çalıştırınız. Gerekli tüm gereklilikler otomatik olarak kurulacaktır.
 
+### Gerekliliklerin kurulması (GNU Linux Debian Dağıtımları)
+Aşağıdaki gereklilikleri kurunuz. 
 
-    pip install opencv-python
+    python -m pip install opencv-python
+    python -m pip install numpy
+    
+Bir sanal ortam oluşturmanız gerekebilir
 
-!!! TÜM GELİŞTİRMELER SONRADAN GIT ARACILIĞI İLE AYNI LİSANS ALTINDA DAĞITILMALIDIR. SEC DAĞITILMAMIŞ TÜM YAZILIM İÇİN YASAL HAKLARA SAHİPTİR.
+    python -m venv sec-ai-env
+    
+### Windows için başlatma
+main.bat dosyasını çalıştırınız.
 
-![SEC AI](repo/image.png)
+### Linux için başlatma.
+main.sh dosyasını aşağıdaki gibi çalıştırınız.
 
-#### Katkı sunma
+    chmod +x main.sh
+    ./main.sh
 
-Tüm katkı sunucuların isimleri ve mottoları depoda yayımlanacaktır. Tüm çatallamalar ve katkıları destekliyoruz. 
+## Katkı sunma
+
+Yazılımın ve veritabanının geliştirilmesinde katkıda bulunan herkesin ismi ve mottosu kod deposunda sonsuza dek yayınlanacaktır. Buna yazılım ve veritabanına dahil edilen çatallamalarda dahildir.
